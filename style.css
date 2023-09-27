@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    margin: 0;
+    width: 100;
+    box-sizing: border-box;
+    background-color: #89C15E;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 6rem;
+    flex-direction: column;
+}
+
+.container1 {
+    display: flex;
+    border: 3px solid white;
+    width: 50rem;
+    border-radius: 10px;
+    height: 11rem;
+    font-family: roboto;
+    padding: 1rem 1rem;
+    justify-content: space-between;
+}
+
+.gameline>p {
+    font-size: 2.5rem;
+    color: rgb(240, 254, 255);
+    width: 3rem;
+    font-weight: 500;
+}
+
+.scores {
+    display: flex;
+    width: 19rem;
+    float: right;
+    justify-content: space-between;
+}
+
+.score1,
+.score2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 8.6rem;
+    border-radius: 10px;
+    height: 8.4rem;
+    justify-content: space-evenly;
+    background-color: antiquewhite;
+}
+
+.score1>p,
+.score2>p {
+    font-size: 1.2rem;
+    background-color: antiquewhite;
+}
+
+h2 {
+    font-size: 3rem;
+    background-color: antiquewhite;
+}
+
+
+/* Images css */
+
+#stone_img {
+    background-color: white;
+    border-radius: 100%;
+    width: 7rem;
+    object-fit: scale-down;
+    height: 7rem;
+    border: 14px solid #0074B6;
+}
+
+#scissor_img {
+    background-color: white;
+    border-radius: 100%;
+    object-fit: scale-down;
+    width: 7rem;
+    height: 7rem;
+    border: 14px solid #BD00FF;
+}
+
+#paper_img {
+    background-color: white;
+    border-radius: 100%;
+    width: 7rem;
+    object-fit: scale-down;
+    height: 7rem;
+    border: 14px solid rgb(252, 195, 64);
+}
+
+
+/* Rules */
+
+.square_box {
+    background-color: #004429;
+    display: flex;
+    gap: 3.6rem;
+    margin-top: 0;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.sq {
+    background-color: yellow;
+    width: 1rem;
+    padding: 0.5rem;
+}
+
+.rules>h2 {
+    background-color: #004429;
+    color: antiquewhite;
+    margin: 1.2rem 0rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.rules {
+    display: flex;
+    flex-direction: column;
+    background-color: #004429;
+    width: 21rem;
+    height: 25rem;
+    border-radius: 12px;
+    border: 0.5rem solid white;
+}
+
+.rules1 {
+    display: flex;
+    gap: 1rem;
+    background-color: #004429;
+}
+
+.rules_line>p {
+    background-color: #004429;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    color: antiquewhite;
+    padding-bottom: 1rem;
+}
